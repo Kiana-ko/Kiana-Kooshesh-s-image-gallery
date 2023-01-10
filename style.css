@@ -1,0 +1,16 @@
+
+h1 { color:darkcyan;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container .img-container img {
+    width: 100%;
+    border-radius: 20px;
+}
